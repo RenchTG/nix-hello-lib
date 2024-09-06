@@ -20,6 +20,6 @@
     in
     {
       overlays.default = nixpkgs.lib.composeManyExtensions my_overlays;
-      packages.x86_64-linux.default = pkgs.hello;
+      packages.x86_64-linux.default = pkgs.hellolib;
     };
 }
